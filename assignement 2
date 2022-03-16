@@ -1,0 +1,12 @@
+def Split(x):
+	even_numbers = []
+	odd_numbers = []
+	for i in x:
+		if (i % 2 == 0):
+			even_numbers.append(i)
+		else:
+			odd_numbers.append(i)
+	print("Even numbers =", even_numbers)
+	print("Odd numbers =", odd_numbers)
+x = [1,2,4,3,5,3,6]
+Split(x)
